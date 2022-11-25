@@ -1,12 +1,31 @@
 {
   "name": "@joker1125/utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "js utility functions",
+  "keywords": [
+    "utils",
+    "js-utils"
+  ],
+  "author": "joker1125",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jizai1125/jocker1125-utils"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/jizai1125/jocker1125-utils/#readme",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "ISC",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.5.0"
+  }
 }
